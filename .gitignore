@@ -1,0 +1,4 @@
+node_modules
+sui_faucet.sh
+dist
+.env
