@@ -2,3 +2,8 @@ node_modules
 sui_faucet.sh
 dist
 .env
+
+outputs
+
+./output.json
+./result.json
