@@ -1,23 +1,24 @@
 {
-  "name": "cetus-dca",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "@cetusprotocol/cetus-sui-clmm-sdk": "^4.2.0",
-    "@mysten/sui.js": "^0.54.1",
-    "bn.js": "^5.2.1",
-    "decimal.js": "^10.4.3",
-    "dotenv": "^16.4.5"
-  },
-  "devDependencies": {
-    "ts-node": "^10.9.2",
-    "typescript": "^5.4.5"
-  }
+    "name": "cetus-dca",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "npx ts-node src/index.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "@cetusprotocol/cetus-sui-clmm-sdk": "^4.2.0",
+        "@mysten/sui.js": "^0.54.1",
+        "bn.js": "^5.2.1",
+        "decimal.js": "^10.4.3",
+        "dotenv": "^16.4.5"
+    },
+    "devDependencies": {
+        "ts-node": "^10.9.2",
+        "typescript": "^5.4.5"
+    }
 }
